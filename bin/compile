@@ -70,9 +70,9 @@ IFS='
 '
 
 read -r -d '' -a pkgs <<"~"
+libffi-3.0.13,ftp://sourceware.org/pub/libffi/libffi-3.0.13.tar.gz,j,
 glib-2.38.2,http://ftp.gnome.org/pub/gnome/sources/glib/2.38/glib-2.38.2.tar.xz,J,--with-pic --enable-static --disable-shared
 gdk-pixbuf-2.30.2,http://ftp.gnome.org/pub/gnome/sources/gdk-pixbuf/2.30/gdk-pixbuf-2.30.2.tar.xz,J,--with-pic --enable-static --disable-shared
-fontconfig-2.11.0,http://www.freedesktop.org/software/fontconfig/release/fontconfig-2.11.0.tar.bz2,j,--with-pic --enable-static --disable-shared
 ~
 
 IFS="$cIFS"
